@@ -1,6 +1,6 @@
-org 0x7C00
 bits 16
-mov ax , 07C0h
+org 0x7C00
+xor ax , ax
 mov ds , ax 
 mov ax , 07E0h
 mov ss , ax 
